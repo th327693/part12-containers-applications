@@ -4,3 +4,5 @@ node_modules/
 docker-compose.dev.yml
 docker-compose.yml
 Dockerfile
+mongo_data/
+redis_data/

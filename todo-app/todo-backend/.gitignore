@@ -1,5 +1,6 @@
 mongo_data/
 .vscode/
+redis_data/
 # Logs
 logs
 *.log

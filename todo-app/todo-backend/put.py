@@ -8,7 +8,7 @@ content = {
 	'newdone' : False
 }
 
-res = requests.put(f"http://localhost:3000/todos/{id}",json=content)
+res = requests.post(f"http://localhost:3000/todos",json=content)
 
 print( str(res.status_code) + res.reason )
 if res.status_code < 400 :
